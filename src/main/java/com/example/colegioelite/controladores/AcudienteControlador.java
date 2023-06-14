@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("api/v1/acudientes")
 public class AcudienteControlador {
     @Autowired
-    protected AcudienteServicio acudienteServicio;
+    private AcudienteServicio acudienteServicio;
 
     @PostMapping
     public ResponseEntity<Acudiente> registrar(@RequestBody Acudiente datosAGuardar){

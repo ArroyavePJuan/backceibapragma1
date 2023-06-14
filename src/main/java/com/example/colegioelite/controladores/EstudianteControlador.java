@@ -19,7 +19,7 @@ import java.util.List;
 public class EstudianteControlador {
 
     @Autowired
-    protected EstudianteServicio estudianteServicio;
+    private EstudianteServicio estudianteServicio;
 
 
     @PostMapping
